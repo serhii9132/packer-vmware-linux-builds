@@ -10,7 +10,7 @@ ifneq ($(LOCAL_VARS),)
 	PACKER_CMD += -var-file=$(LOCAL_VARS)
 endif
 
-.PHONY: init_logs $(TARGETS)
+.PHONY: init_logs $(TARGETS) clean
 
 init_logs:
 	@mkdir -p $(LOG_DIR)

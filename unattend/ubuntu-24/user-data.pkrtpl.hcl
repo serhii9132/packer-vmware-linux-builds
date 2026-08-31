@@ -16,9 +16,6 @@ autoinstall:
     install-server: true
     allow-pw: false
 
-  packages:
-    - qemu-guest-agent
-
   timezone: "UTC"
 
   updates: all

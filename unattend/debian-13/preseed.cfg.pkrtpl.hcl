@@ -89,7 +89,7 @@ d-i apt-setup/use_mirror boolean true
 tasksel tasksel/first multiselect ssh-server
 
 # Extra packages to be installed
-d-i pkgsel/include string python3 qemu-guest-agent
+d-i pkgsel/include string python3
 
 # Disable polularity contest
 popularity-contest popularity-contest/participate boolean false

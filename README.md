@@ -2,11 +2,10 @@
 
 This repository contains configuration files for a fully unattended installation of the following operating systems:
 - Debian 13
-- Ubuntu 24.04 LTS 
-- AlmaLinux 8.10
+- Ubuntu 24.04 
 
 ### Template details:
-- CPU: 4 cores
+- CPU: 2 cores
 - Disk: 50 Gb
 - Type disk: growable virtual disk contained in a single file
 - RAM: 4 Gb
@@ -19,7 +18,6 @@ This repository contains configuration files for a fully unattended installation
 password = "$6$Passwird23432"
 ssh_private_key_file = "D://path//to//key//key.pem"
 ssh_public_key="ssh-ed25519 AAAA11112222333....."
-
  ```
 2. Run the following commands:
 ```sh

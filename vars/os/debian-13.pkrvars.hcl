@@ -1,5 +1,5 @@
-iso_checksum = "file:https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/SHA512SUMS"
-iso_url = "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd"
+iso_checksum = "file:https://cdimage.debian.org/mirror/cdimage/archive/13.6.0/amd64/iso-cd/SHA512SUMS"
+iso_url = "https://cdimage.debian.org/mirror/cdimage/archive/13.6.0/amd64/iso-cd"
 iso_name = "debian-13.6.0-amd64-netinst.iso"
 
 vm_name = "debian-13"
